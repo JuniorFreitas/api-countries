@@ -1,0 +1,25 @@
+{
+  "name": "api-pais-cidade-estado",
+  "version": "1.0.0",
+  "description": "API para consulta de países, estados e cidades",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "node scripts/build-db.js",
+    "test": "node test-api.js",
+    "test:cors": "node test-cors.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["api", "geography", "countries", "states", "cities"],
+  "author": "Seu Nome",
+  "license": "MIT"
+}
