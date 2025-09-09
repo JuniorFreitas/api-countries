@@ -83,10 +83,19 @@ curl "http://localhost:3000/api/search?q=New York&type=cities"
 
 ## 🌐 Hospedagem Gratuita
 
-### Vercel (Recomendado)
-1. Instale o Vercel CLI: `npm i -g vercel`
-2. Execute: `vercel`
-3. Configure as variáveis de ambiente se necessário
+### Vercel (Recomendado) ⭐
+```bash
+# Deploy automático
+./deploy-vercel.sh
+
+# Ou deploy manual
+npm install -g vercel
+vercel login
+vercel --prod
+```
+
+**Documentação completa:** [VERCEL-DEPLOY.md](VERCEL-DEPLOY.md)  
+**Comandos rápidos:** [COMANDOS-VERCEL.md](COMANDOS-VERCEL.md)
 
 ### Netlify
 1. Conecte seu repositório GitHub
